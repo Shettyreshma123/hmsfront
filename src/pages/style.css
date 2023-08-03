@@ -1,0 +1,16 @@
+.makeStyles-paper-2{
+    display: flex;
+    margin-top: 64px;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    box-shadow: aqua;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+.MuiLink-underlineHover {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

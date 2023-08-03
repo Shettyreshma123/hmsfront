@@ -1,0 +1,218 @@
+.addbtn{
+	width: 100px;
+	height: 50px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	color:white;
+	background-color:black;
+}
+.addbtn:hover{
+	background-color:white;
+	color: black;
+}
+/* style.css */
+
+
+/* .card{
+    background-color: burlywood;
+    padding: 25px 55px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    width: 200px;
+}
+/* style.css */
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 100px;
+	/* margin-top: 80px; */
+
+  } 
+  
+  /* .role-card {
+	width: 220px;
+	border: 1px solid #918f8f;
+	border-radius: 50px;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(158, 144, 144, 0.1);
+  }
+  
+  .role-card-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	/* margin-bottom: 10px; */
+  /* } */
+  
+  .role-card-count {
+	font-size: 1rem;
+	color: #888;
+	font-size: 1.2rem;
+	color: #555;
+	text-align: center;
+	/* display: flex; */
+	/* text-align: right; */
+  } */
+  .form-control{
+	border: 1px solid black;
+	border-radius: 20px;
+  }
+  .center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+  }
+  .center1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+  }
+ .role-card-image{
+	width:275px;
+	height: 200px;
+	align-items: center;
+ }
+  
+ .card-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 36px;
+  }
+  
+  .role-card {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	border: 1px solid black;
+  }
+  
+  /* .role-card-image {
+	width: 100%;
+	height: auto;
+	
+  } */
+  
+  .role-card-title {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+	
+  }
+  
+  /* .role-card-count {
+	font-size: 1.2rem; */
+	/* display: flex; */
+	/* color: #555; */
+	/* text-align: center; */
+  /* } */
+  
+  .calendar-container {
+	width: 100%;
+    padding: 11px 96px;
+  }
+ 
+  .calendar-container .react-calendar {
+	width: 120%;
+    /* padding: 10px 166px; */
+	border-radius: 7px;
+  }
+  .header-black {
+	background-color: black;
+	color: white;
+  }
+  /* style.css */
+
+/* style.css */
+
+.containers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+  .profile-details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+  
+  .profile-image img {
+	width: 200px;
+	height: 200px;
+	/* object-fit: cover; */
+	 border-radius: 45%; 
+	 margin-top: 20px;
+	margin-bottom: 10px;  
+	
+
+  }
+  
+  .profile-info {
+	margin-top: 20px;
+	text-align: center;
+  }
+  
+  .profile-info p {
+	margin: 10px 0;
+	font-size: 20px;
+	margin-top: 20px;
+  }
+  
+  h2 {
+	color: #333;
+	font-size: 20px;
+	margin-bottom: 16px;
+	text-align: center;
+  }
+  
+  .loading-message {
+	text-align: center;
+	font-size: 18px;
+	color: #777;
+	margin-top: 20px;
+  }
+  
+  
+  .btn-st {
+	
+	background-color: #f1f1f1;
+	color: #333;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 4px;
+  }
+  
+  .btn-st.edit-button {
+	background-color: #4caf50;
+	color: white;
+  }
+  
+  .btn-st.delete-button {
+	background-color: #f44336;
+	color: white;
+  }
+  .table-container {
+	/* height: 100%; */
+	overflow: hidden;
+  }
+  
+  /* .modal-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 40%;
+    align-items:center;
+  } */
+  .modal-content{
+	margin-top: 40px;
+  }
+ 

@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import "./App.css";
+import LoginForm from "./pages/LoginForm";
+import ForgetPasswordForm from "./pages/ForgetPasswordForm";
+import Doctor from "./component/doctor/Doctor";
+import Admin from "./component/admin/Admin";
+import Nurse from "./component/nurse/Nurse";
+import Receptionist from "./component/receptionist/Receptionist";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<LoginForm />} />
+          <Route  path="/reset-password" element={<ForgetPasswordForm/>} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/doctor" element={<Doctor />} />
+          <Route path="/nurse" element={<Nurse />} />
+          <Route path="/receptionist" element={<Receptionist />} />
+        </Routes>
+      </BrowserRouter>
+      <ToastContainer />
     </div>
   );
 }
