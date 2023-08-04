@@ -1,0 +1,121 @@
+/* Your CSS styles for the HomePage component here */
+
+/* Styles for the container div */
+/* Your CSS styles for the HomePage component here */
+
+.full-page {
+	margin: 0;
+	padding: 0;
+  }
+
+  body, html {
+	margin: 0;
+	padding: 0;
+  }
+  
+  .container {
+	min-height: 100vh;
+	min-width: 100vw;
+	
+  }
+  
+  /* Your CSS styles for the HomePage component here */
+
+  header {
+	/* Your styles for the header section */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #007BFF;
+	color: #FFF;
+	padding: 10px;
+  }
+  
+  .hospital-logo img {
+	/* Your styles for the hospital logo */
+	height: 100px;
+  }
+  
+  
+  
+  .sign-in-button {
+	/* Your styles for the sign-in button */
+	background-color: #FFF;
+	color: #007BFF;
+	border: 2px solid #007BFF;
+	padding: 8px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .sign-in-button:hover {
+	/* Your styles for the sign-in button on hover */
+	background-color: #007BFF;
+	color: #FFF;
+  }
+  
+  .login-options {
+	/* Your styles for the login options */
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+  }
+  
+  .user-login-button,
+  .staff-login-button {
+	/* Your styles for the user and staff login buttons */
+	background-color: #007BFF;
+	color: #FFF;
+	border: none;
+	padding: 8px 15px;
+	margin-right: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .user-login-button:hover,
+  .staff-login-button:hover {
+	/* Your styles for the user and staff login buttons on hover */
+	background-color: #0056b3;
+  }
+  
+  /* Signaup.css */
+
+  .signup-container {
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  .signup-container h2 {
+	text-align: center;
+  }
+  
+  .input-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+  }
+  
+  .input-group label {
+	font-weight: bold;
+  }
+  
+  .input-group input {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+  }
+  
+  button {
+	padding: 8px 15px;
+	background-color: #007BFF;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+  }
+  

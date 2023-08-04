@@ -82,15 +82,15 @@ function ResponsiveDrawer(props) {
         }}
       >
         {[
-          { text: "Doctor", iconComponent: <FaUserMd />, role: "Doctor" },
-          { text: "Nurse", iconComponent: <FaUserNurse />, role: "Nurse" },
+          { text: "Doctor", iconComponent: <FaUserMd color="primary"/>, role: "Doctor" },
+          { text: "Nurse", iconComponent: <FaUserNurse color="secondary" />, role: "Nurse" },
           {
             text: "Receptionist",
-            iconComponent: <FaUserCheck />,
+            iconComponent: <FaUserCheck style={{ color: "#ff0000" }}/>,
             role: "Receptionist",
           },
-          { text: "Patients", iconComponent: <PeopleIcon />, role: "Patients" },
-          { text: 'Profile', iconComponent: <AccountCircleIcon />, role:"Profile" },
+          { text: "Patients", iconComponent: <PeopleIcon   style={{ color: "4CAF50" }}/>, role: "Patients" },
+          { text: 'Profile', iconComponent: <AccountCircleIcon style={{ color: "FFC107" }}/>, role:"Profile" },
           
           {
             text: "Logout",
